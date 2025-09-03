@@ -1,0 +1,45 @@
+Image Encryption Tool
+
+A simple Python program to **encrypt, decrypt, and manipulate images** using basic pixel operations.
+
+Features
+
+* **Encrypt** an image with a key.
+* **Decrypt** an image using the same key.
+* **Swap pixels** (example: reverse image rows).
+
+---
+Requirements
+
+* Python 3.x
+* Libraries:
+
+```
+pip install pillow numpy
+```
+
+---
+How to Use
+
+1. Run the script:
+
+```
+python image_encryption.py
+```
+
+2. Choose an option:
+
+```
+1. Encrypt
+2. Decrypt
+3. Swap Pixels
+```
+
+3. Enter the **input image path** and **output image path**.
+4. Enter the **key** if encrypting or decrypting.
+
+---
+Notes
+
+* Works with RGB and grayscale images.
+* Use the same key for encryption and decryption.
